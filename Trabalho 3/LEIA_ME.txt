@@ -1,0 +1,31 @@
+Versão do MATLAB: Matlab r2014a
+
+1. O usuário seleciona a opção SELECIONE O SISTEMA
+2. O segundo menu será aberto e então o dado devera ser selecionado
+3. A terceira opção estará disponível para a visualização dos sistemas
+4. Após a seleção do conjunto de dados as 4 opções que realizam as operações estarão
+disponíveis
+
+ Contéudo:
+_______________________________________________________________________________
+_______________________________________________________________________________
+ Arquivos com extensão .m
+
+Funções:
+	Gauss_Seidel.m
+	Ybarra_insp.m	
+	exibicao.m
+	desenhaGrafo.m
+	contingencia.m
+	Reducao_kron.m
+	caso4.m
+	perdasGauss.m
+	
+		
+
+Scripts: TRAB3_SEP.m     	(Menu interativo)
+	 
+     
+______________________________________________________________________________
+______________________________________________________________________________
+ 

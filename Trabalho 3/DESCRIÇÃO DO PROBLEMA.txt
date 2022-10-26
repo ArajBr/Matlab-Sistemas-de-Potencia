@@ -1,0 +1,20 @@
+O principal objetivo do trabalho está relacionado com a implementação de um programa
+na plataforma de software MATLAB, versão 2014a, que seja capaz de, à partir de um sistema
+elétrico de potência (SEP), obter as seguintes informações:
+
+Empregando o método de construção de Zbarra + Método de Fluxo de Potência, crie um
+procedimento de análise de SEP diante de remoções sistemáticas de linhas do sistema. Avalie
+as mudanças no perfil de tensão, correntes nas linhas e perdas de potência ativa no sistema
+para o caso da ausência do componente retirado. A comparação deve ser feita com o CASO
+BASE (sistema original). A partir daí, procure identificar as linhas mais críticas, ou seja,
+aquelas que trazem as maiores alterações para a operação do sistema elétrico. Implemente os
+fatores de distribuição K e L  para auxiliar na identificação
+das linhas mais críticas.
+
+Entende-se aqui por remoções sistemáticas, algum procedimento inteligente para enumeração das linhas (as mais críticas) do SEP.
+Faça uma análise N-1 em um sistema dado, buscando identificar a área do SEP mais
+vulnerável do sistema. Realize também o cálculo ESTIMADO das novas tensões em todas
+as barras do SEP a partir da eliminação de uma das linhas do sistema original .
+
+Efetue reforços identificados como necessários de linha (adicionar linhas de valores preestabelecidos como, por exemplo, de valor igual ao da linha já existente) e realize a análise
+do SEP comparando-o após esse reforço.

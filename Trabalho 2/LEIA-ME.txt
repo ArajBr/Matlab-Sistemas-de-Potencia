@@ -1,0 +1,30 @@
+Versão do MATLAB: Matlab r2014a
+
+1 O usuário seleciona a opção LEITURA DOS DADOS DE ENTRADA
+
+2 O segundo menu será aberto e então o dado devera ser selecionado
+
+3 A segunda opção estará disponível para a realização do Gauss-Seidel 
+após a seleção do conjunto de dados a ser utilizado
+
+4 A terceira opção estará disponível após a seleção dos dados e
+ execução do Gauss-Seidel
+
+ Contéudo:
+_______________________________________________________________________________
+_______________________________________________________________________________
+ Arquivos com extensão .m
+
+Funções:
+	Gauss_Seidel.m
+	Ybarra_insp.m	
+	Linearizado.m
+	
+		
+
+Scripts: TRAB2_SEP.m     	(Menu interativo)
+	 
+ 
+     
+______________________________________________________________________________
+______________________________________________________________________________

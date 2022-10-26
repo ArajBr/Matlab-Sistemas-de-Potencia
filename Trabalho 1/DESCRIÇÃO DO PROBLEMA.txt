@@ -1,0 +1,16 @@
+O principal objetivo do trabalho está relacionado com a implementação de um programa
+na plataforma de software MATLAB, versão 2014a, que seja capaz de, à partir de um sistema
+elétrico de potência (SEP), obter as seguintes informações:
+
+1. Leitura dos dados de entrada do SEP;
+
+2. Pré-processamento e análise:levantamento de ilhamentos, duplicidade de dados, dados
+inválidos, mapeamento de id originais de nós para id’s em sequência (id’s originais podem ser inclusive sequência alfanumérica, exemplo ‘N31A32CC’ ou ‘SE233’), detecção
+de quantidade de laços (grafo não conexo), quantidade de elementos e nós, levantamento da quantidade de árvores distintas e apresentação de um possível conjunto de
+laços básicos com destaque para as cordas escolhidas;
+
+3. Obtenção de Ybarra, utilizando o procedimento de construção de Areduzida e Yprimitiva
+
+4. Obtenção de Zbarra, utilizando o algortimo de construção de Zbarra
+
+5. Fatoração, decompor ZBARRA na associação LU.

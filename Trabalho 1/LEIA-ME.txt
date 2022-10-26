@@ -1,0 +1,45 @@
+Versão do MATLAB: Matlab r2014a
+
+1 O usuário seleciona a opção LEITURA DOS DADOS DE ENTRADA
+
+2 O segundo menu será aberto e então o dado devera ser selecionado
+
+3 Posteriomente o item PRÉ-PROCESSAMENTO E ANÁLISE deverá ser acionado 
+para que ocorra o tratamento necessário para a execução completa do programa
+
+4 Após isso o resto das abas estarão disponíveis para a execução dos 
+comandos desejados
+
+ Contéudo:
+_______________________________________________________________________________
+_______________________________________________________________________________
+ Arquivos com extensão .m
+
+Funções:
+
+	trataSep.m	  	(Trata erros de sobre a inserção de dados) 
+ 	reducao_kron.m    	(Executa a redução de Kron)
+ 	encontra_cone.m   	(Encontra os caminhos fechados referentes a uma barra)
+        encontraLacos.m	  	(Encontra os caminhos fechados do SEP) 	
+        criaZbarra.m	  	(Constrói Z_Barra)
+ 	criaYbarra.m      	(Constrói Y_barra)
+ 	conversaoImpedancia.m   (Expressa todos os elemetos em impedância)
+ 	caso1.m           	(Caso de inserção 1)
+ 	caso2.m           	(Caso de inserção 2)
+ 	caso3.m           	(Caso de inserção 3)
+ 	caso4.m           	(Caso de inserção 4)
+ 	DecomLDU.m        	(Decomposição LU)
+	ZPRIMITIVA.m		(Encontra a matriz Zprimitiva)
+	MatrizIncidencia.m	(Encontra a matriz de incidencia do sep)
+	grafoConexo.m		(Diz se o grafo é conexo ou não)
+	duplicidade.m		(Encontra dados redundantes)
+	desenhaGrafo.m		(Calcula e desenha Grafo-sep,Grafo-arvore e Grafo-cordas)
+	cofatores.m		(Encontra a matriz de cofatores)	
+
+Scripts: TRAB1_SEP.m     	(Menu interativo)
+	 
+ 
+     
+______________________________________________________________________________
+______________________________________________________________________________
+ 

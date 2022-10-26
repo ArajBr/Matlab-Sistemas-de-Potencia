@@ -1,0 +1,22 @@
+O principal objetivo do trabalho está relacionado com a implementação de um programa
+na plataforma de software MATLAB, versão 2014a, que seja capaz de, à partir de um sistema
+elétrico de potência (SEP), obter as seguintes informações:
+
+1. Construir o método de fluxo de potência de Gauss-Seidel (com aceleração por método
+de sobre-relaxação sucessiva) para identificar as barras cujos módulos de tensão estão
+fora de uma faixa préespecificada (Vmin, Vmáx) e as linhas cujos fluxos de potência
+ou correntes estão acima da capacidade térmica prevista para a linha. ATENÇÃO:
+será necessária a definição de Vmin e Vmáx para o sistema e a capacidade térmica
+(ampacidade ou limite máximo de fluxo) para cada linha no arquivo de entrada. Para
+isso, precisará: realizar a verificação do balanço de potência, calcular os fluxos nas
+linhas e as perdas ativas e reativas;
+
+2. Empregandar o método direto (com inversão de matriz de rede), REALIZE uma análise
+de sensibilidade da variação percentual de geração de cada barra PV para o fluxo nas
+linhas do SEP;
+
+3. Implementar o fluxo de potência linearizado para calcular a perda de potência ativa
+total do SEP. Faça a análise considerando o resultado obtido também por Gauss-Seidel
+(calcule as perdas do mesmo sistema por meio do método de Gauss-Seidel);
+Em casos, de não inversibilidade da matriz B’ ou B”, EMPREGAR um método de
+aproximação da inversa da matriz.
